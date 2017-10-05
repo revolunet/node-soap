@@ -29,7 +29,7 @@ This module lets you connect to web services using SOAP.  It also provides a ser
 - [Client](#client)
   - [Client.describe() - description of services, ports and methods as a JavaScript object](#clientdescribe---description-of-services-ports-and-methods-as-a-javascript-object)
   - [Client.setSecurity(security) - use the specified security protocol](#clientsetsecuritysecurity---use-the-specified-security-protocol)
-  - [Client.*method*(args, callback) - call *method* on the SOAP service.](#clientmethodargs-callback---call-method-on-the-soap-service)
+  - [Client.*method*(args, callback) - call *method* on the SOAP service.](#clientmethodargs-callback-options---call-method-on-the-soap-service)
   - [Client.*method*Async(args) - call *method* on the SOAP service.](#clientmethodasyncargs---call-method-on-the-soap-service)
   - [Client.*service*.*port*.*method*(args, callback[, options[, extraHeaders]]) - call a *method* using a specific *service* and *port*](#clientserviceportmethodargs-callback-options-extraheaders---call-a-method-using-a-specific-service-and-port)
   - [Overriding the namespace prefix](#overriding-the-namespace-prefix)
